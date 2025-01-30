@@ -1,0 +1,161 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "first_name": "Davaa",
+      "last_name": "Hangai",
+      "date_of_birth": "12/22/1990",
+      "loanId": [1, 2, 3]
+    },
+    {
+      "id": 2,
+      "first_name": "Tuya",
+      "last_name": "Hash",
+      "date_of_birth": "5/15/1980",
+      "loanId": [4, 5]
+    },
+    {
+      "id": 3,
+      "first_name": "Gombo",
+      "last_name": "Lodoi",
+      "date_of_birth": "1/16/1978",
+      "loanId": [6]
+    },
+    {
+      "id": 4,
+      "first_name": "Nergui",
+      "last_name": "Sambuu",
+      "date_of_birth": "8/4/1977",
+      "loanId": [7, 8]
+    },
+    {
+      "id": 5,
+      "first_name": "Moogii",
+      "last_name": "Ebi",
+      "date_of_birth": "1/6/2002",
+      "loanId": [9, 10, 11, 12]
+    }
+  ],
+  "loans": [
+    {
+      "id": 1,
+      "customerId": 1,
+      "amount": 100000,
+      "start_date": "2025-01-26",
+      "end_date": "2025-02-25",
+      "interest": 5,
+      "interest_amount": 5000,
+      "total_payment": 105000
+    },
+    {
+      "id": 2,
+      "customerId": 1,
+      "amount": 500000,
+      "start_date": "2025-01-26",
+      "end_date": "2025-02-25",
+      "interest": 5,
+      "interest_amount": 25000,
+      "total_payment": 525000
+    },
+    {
+      "id": 3,
+      "customerId": 1,
+      "amount": 688800,
+      "start_date": "2025-01-26",
+      "end_date": "2025-02-25",
+      "interest": 5,
+      "interest_amount": 34440,
+      "total_payment": 723240
+    },
+    {
+      "id": 4,
+      "customerId": 2,
+      "amount": 9874000,
+      "start_date": "2025-01-26",
+      "end_date": "2025-02-25",
+      "interest": 5,
+      "interest_amount": 493700,
+      "total_payment": 10367700
+    },
+    {
+      "id": 5,
+      "customerId": 2,
+      "amount": 500000,
+      "start_date": "2025-01-26",
+      "end_date": "2025-02-25",
+      "interest": 5,
+      "interest_amount": 25000,
+      "total_payment": 525000
+    },
+    {
+      "id": 6,
+      "customerId": 3,
+      "amount": 80000,
+      "start_date": "2025-01-26",
+      "end_date": "2025-02-25",
+      "interest": 5,
+      "interest_amount": 4000,
+      "total_payment": 84000
+    },
+    {
+      "id": 7,
+      "customerId": 4,
+      "amount": 762000,
+      "start_date": "2025-01-26",
+      "end_date": "2025-02-25",
+      "interest": 5,
+      "interest_amount": 38100,
+      "total_payment": 800100
+    },
+    {
+      "id": 8,
+      "customerId": 4,
+      "amount": 1250000,
+      "start_date": "2025-01-26",
+      "end_date": "2025-02-25",
+      "interest": 5,
+      "interest_amount": 62500,
+      "total_payment": 1312500
+    },
+    {
+      "id": 9,
+      "customerId": 5,
+      "amount": 580000,
+      "start_date": "2025-01-27",
+      "end_date": "2025-03-28",
+      "interest": 4,
+      "interest_amount": 46400,
+      "total_payment": 626400
+    },
+    {
+      "id": 10,
+      "customerId": 5,
+      "amount": 699000,
+      "start_date": "2025-01-27",
+      "end_date": "2025-03-28",
+      "interest": 4,
+      "interest_amount": 55920,
+      "total_payment": 754920
+    },
+    {
+      "id": 11,
+      "customerId": 5,
+      "amount": 880000,
+      "start_date": "2025-01-27",
+      "end_date": "2025-03-28",
+      "interest": 4,
+      "interest_amount": 70400,
+      "total_payment": 950400
+    },
+    {
+      "id": 12,
+      "customerId": 5,
+      "amount": 9800000,
+      "start_date": "2025-01-27",
+      "end_date": "2025-03-28",
+      "interest": 4,
+      "interest_amount": 784000,
+      "total_payment": 10584000
+    }
+  ]
+}
